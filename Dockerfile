@@ -1,5 +1,4 @@
-# 使用 ARM64 的 Debian Slim 基础镜像
-FROM debian:bullseye-slim
+FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
