@@ -1,4 +1,6 @@
-FROM ubuntu:20.10
+# 使用 ARM64 的 Debian Slim 基础镜像
+FROM debian:bullseye-slim
+
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && \
