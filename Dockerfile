@@ -17,10 +17,7 @@ RUN apt-get update && \
     apt-get install -y gnome-session && \
     apt-get install -y gdm3 && \
     apt-get install -y tasksel && \
-    apt-get install -y ssh && \
     apt-get install -y terminator && \
-    apt-get install -y git && \
-    apt-get install -y nano && \
     apt-get install -y curl && \
     apt-get install -y wget && \
     apt-get install -y zip && \
